@@ -8,5 +8,6 @@ inputEl.addEventListener("blur", (event) => {
     inputEl.classList.add("valid");
   } else {
     inputEl.classList.add("invalid");
+    event.currentTarget.value.length.trim();
   }
 });
